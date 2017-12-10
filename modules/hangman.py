@@ -17,6 +17,7 @@ def hangman(phenny, input):
     guess = input("What is your Guess: ")
     if(len(guess) > 1):
       if(guess=="quit"):
+        phenny.say("Bye :)")
         msg=word
       elif guess == word:
         msg=word
