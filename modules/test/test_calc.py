@@ -5,7 +5,7 @@ author: mutantmonkey <mutantmonkey@mutantmonkey.in>
 """
 import unittest
 from mock import MagicMock
-import modules.calc as calc
+import ..modules.calc as calc
 from tools import is_up
 
 
