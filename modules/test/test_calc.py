@@ -5,7 +5,7 @@ author: mutantmonkey <mutantmonkey@mutantmonkey.in>
 """
 import unittest
 from mock import MagicMock
-from phenny.modules.calc import c
+from modules.calc import c
 from tools import is_up
 
 
