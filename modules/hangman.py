@@ -9,7 +9,7 @@ import random
 words = ["begiak", "apertium", "dictionary", "processing", "language", "natural", "phenny", "lexical", "analysis", "generator"]
 
 # Phenny.say("Guess")
-def game(phenny, input):
+def hangman(phenny, input):
   word = words[random.randint(0, len(words)-1)]
   msg = "-" * len(word)
   phenny.say("Type: 'quit' to stop playing")
