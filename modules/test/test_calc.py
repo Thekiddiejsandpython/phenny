@@ -33,5 +33,5 @@ class TestCalc(unittest.TestCase):
 
     def test_c_none(self):
         self.input.group.return_value = 'aif'
-        c(self.phenny, self.input)
+        calc.c(self.phenny, self.input)
         self.phenny.reply.assert_called_once_with('Sorry, no result.')
