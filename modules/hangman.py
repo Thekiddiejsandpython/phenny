@@ -1,3 +1,10 @@
+#!/usr/bin/python3
+
+"""
+hangman.py - when bored on #apertium IRC :P
+author: Extraterrestrial Seahorse <https://github.com/Thekiddiejsandpython>
+"""
+
 import random
 words = ["begiak", "apertium", "dictionary", "processing", "language", "natural", "phenny", "lexical", "analysis", "generator"]
 
