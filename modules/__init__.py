@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(0, '../')
 def caseless_equal(str_a, str_b):
 	return str_a.casefold() == str_b.casefold()
 
